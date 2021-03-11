@@ -1,229 +1,258 @@
-/*general*/
-
-body {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.img-fondo-a {
-    background-image: url("../images/fondo-a.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-.img-fondo-b {
-    background-image: url("../images/fondo-b.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 850px;
-}
-
-.img-fluid {
-    height: 173px;
-    width: 345px;
-    padding: 0;
-}
-
-.texto {
-    height: 140px;
-    width: 345px;
-    padding: 10px;
-}
-
-.pro {
-    height: 440px;
-}
-
-p {
-    color: #6A6A6A;
-    font-size: 14px;
-}
-
-h1,
-.link-rojo {
-    color: #E20000;
-}
-
-h2 {
-    font-size: 16px;
-    text-transform: uppercase;
-    color: white;
-    padding: 0px;
-    margin: 0px;
-}
-
-.color-gradiente {
-    background: linear-gradient(90deg, rgba(184, 37, 20, 1) 0%, rgba(240, 47, 23, 1) 100%);
-}
-
-
-/*general*/
-
-
-/*contacto-sobremi-proyectos-index*/
-
-.nav-link {
-    color: black;
-    /* margin-left: 23px; */
-    margin-right: 46px;
-}
-
-a.nav-link {
-    color: black;
-}
-
-a.nav-link:hover {
-    text-decoration: none;
-}
-
-nav .active {
-    color: black;
-    border: 1px solid #E20000;
-    font-size: 15px;
-    border-radius: 20px;
-    padding: 5px 20px;
-    font-weight: 100;
-    text-align: center;
-}
-
-.btn {
-    background-color: #E20000;
-    color: white;
-    font-size: 15px;
-    border-radius: 20px;
-    padding: 5px 20px;
-    font-weight: 100;
-}
-
-.btn:hover {
-    background-color: #370A6D;
-    color: white;
-    text-decoration: none;
-}
-
-
-/*contacto-sobremi-proyectos-index*/
-
-.boton:not(:disabled):not(.disabled) {
-    cursor: pointer;
-}
-
-
-/*formulario*/
-
-input,
-textarea {
-    border-radius: 15px !important;
-    border: 0px !important;
-}
-
-textarea {
-    height: 150px !important;
-    resize: none;
-}
-
-button {
-    color: white;
-    background-color: white;
-    border-radius: 30px;
-    font-size: 20px;
-    float: right;
-    padding: 12px 50px 12px 50px;
-    font: bold;
-    font-size: 20px;
-}
-
-.btn-enviar {
-    background-color: #FFFFFF;
-    color: #370A6D;
-    font-weight: 500;
-    font-size: 16px;
-    border-radius: 20px;
-    padding: 6px 39px;
-    border: none;
-}
-
-.btn-enviar:hover {
-    background-color: #370A6D;
-    color: white;
-}
-
-
-/*formulario*/
-
-
-/*footer*/
-
-.foo-a,
-.foo-b {
-    margin-top: 100px;
-}
-
-.foo-a,
-.foo-a a {
-    color: white;
-    font-size: 14px;
-}
-
-.foo-b,
-.foo-b a {
-    color: #E20000;
-    font-size: 14px;
-}
-
-.fa-github {
-    font-size: 30px;
-    height: 32px;
-    width: 32px;
-    padding: 8px 0 0 0;
-}
-
-.foo-a .fa-github {
-    color: white;
-}
-
-.foo-b .fa-github {
-    color: #E20000;
-}
-
-.fa-linkedin-in {
-    font-size: 20px;
-    height: 30px;
-    width: 30px;
-    text-align: center;
-    padding-top: 8px;
-    border-radius: 80px;
-    margin-bottom: 8px;
-}
-
-.foo-a .fa-linkedin-in {
-    color: #E20000;
-    background-color: white;
-}
-
-.foo-b .fa-linkedin-in {
-    color: white;
-    background-color: #E20000;
-}
-
-footer .fa-whatsapp {
-    margin-left: 190px;
-    bottom: 0px;
-    color: white;
-    background-color: #370A6D;
-    font-size: 30px;
-    padding: 10px 19px;
-    border-radius: 10px 10px 0 0;
-    height: 65px;
-    width: 65px;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-
-/*footer*/
+    /*general*/
+    
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .img-fondo-a {
+        background-image: url("../images/fondo-a.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    
+    .img-fondo-b {
+        background-image: url("../images/fondo-b.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 850px;
+    }
+    
+    .img-fluid {
+        height: 173px;
+        width: 345px;
+        padding: 0;
+    }
+    
+    .texto {
+        height: 140px;
+        width: 345px;
+        padding: 10px;
+    }
+    
+    .pro {
+        height: 440px;
+    }
+    
+    p {
+        color: #6A6A6A;
+        font-size: 14px;
+    }
+    
+    h1,
+    .link-rojo {
+        color: #E20000;
+    }
+    
+    h2 {
+        font-size: 16px;
+        text-transform: uppercase;
+        color: white;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .color-gradiente {
+        background: linear-gradient(90deg, rgba(184, 37, 20, 1) 0%, rgba(240, 47, 23, 1) 100%);
+    }
+    /*general*/
+    /*contacto-sobremi-proyectos-index*/
+    
+    .nav-link {
+        color: black;
+        /* margin-left: 23px; */
+        margin-right: 46px;
+    }
+    
+    a.nav-link {
+        color: black;
+    }
+    
+    a.nav-link:hover {
+        text-decoration: none;
+    }
+    
+    nav .active {
+        color: black;
+        border: 1px solid #E20000;
+        font-size: 15px;
+        border-radius: 20px;
+        padding: 5px 20px;
+        font-weight: 100;
+        text-align: center;
+    }
+    
+    .btn {
+        background-color: #E20000;
+        color: white;
+        font-size: 15px;
+        border-radius: 20px;
+        padding: 5px 20px;
+        font-weight: 100;
+    }
+    
+    .btn:hover {
+        background-color: #370A6D;
+        color: white;
+        text-decoration: none;
+    }
+    /*contacto-sobremi-proyectos-index*/
+    
+    .boton:not(:disabled):not(.disabled) {
+        cursor: pointer;
+    }
+    /*formulario*/
+    
+    input,
+    textarea {
+        border-radius: 15px !important;
+        border: 0px !important;
+    }
+    
+    textarea {
+        height: 150px !important;
+        resize: none;
+    }
+    
+    button {
+        color: white;
+        background-color: white;
+        border-radius: 30px;
+        font-size: 20px;
+        float: right;
+        padding: 12px 50px 12px 50px;
+        font: bold;
+        font-size: 20px;
+    }
+    
+    .btn-enviar {
+        background-color: #FFFFFF;
+        color: #370A6D;
+        font-weight: 500;
+        font-size: 16px;
+        border-radius: 20px;
+        padding: 6px 39px;
+        border: none;
+    }
+    
+    .btn-enviar:hover {
+        background-color: #370A6D;
+        color: white;
+    }
+    /*formulario*/
+    /*footer*/
+    
+    .foo-a,
+    .foo-b {
+        margin-top: 100px;
+    }
+    
+    .foo-a,
+    .foo-a a {
+        color: white;
+        font-size: 14px;
+    }
+    
+    .foo-b,
+    .foo-b a {
+        color: #E20000;
+        font-size: 14px;
+    }
+    
+    .fa-github {
+        font-size: 30px;
+        height: 32px;
+        width: 32px;
+        padding: 8px 0 0 0;
+    }
+    
+    .foo-a .fa-github {
+        color: white;
+    }
+    
+    .foo-b .fa-github {
+        color: #E20000;
+    }
+    
+    .fa-linkedin-in {
+        font-size: 20px;
+        height: 30px;
+        width: 30px;
+        text-align: center;
+        padding-top: 8px;
+        border-radius: 80px;
+        margin-bottom: 8px;
+    }
+    
+    .foo-a .fa-linkedin-in {
+        color: #E20000;
+        background-color: white;
+    }
+    
+    .foo-b .fa-linkedin-in {
+        color: white;
+        background-color: #E20000;
+    }
+    
+    footer .fa-whatsapp {
+        margin-left: 190px;
+        bottom: 0px;
+        color: white;
+        background-color: #370A6D;
+        font-size: 30px;
+        padding: 10px 19px;
+        border-radius: 10px 10px 0 0;
+        height: 65px;
+        width: 65px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    /*footer*/
+    /* .cohete {
+        height: 400px;
+        width: 300px;
+    }
+    
+    .cohete:hover {
+        height: 420px;
+        width: 315px;
+    } */
+    
+    .img-fondo-a .div-cohete {
+        height: 410px;
+    }
+    
+    .img-fondo-a .cohete {
+        height: 400px;
+    }
+    
+    .img-fondo-a .cohete:hover {
+        height: 410px;
+    }
+    /* .presentacion {
+        border: 1px solid white;
+        border-radius: 40px;
+    }
+    
+    .p-1 {
+        color: white;
+        font-size: 17px;
+        font-weight: 300;
+    } */
+    
+    .img-fondo-a .presentacion p {
+        color: white;
+        font-size: 17px;
+        border: 1px solid white;
+        border-radius: 50px;
+        font-weight: 600;
+    }
+    
+    .p-1 {
+        padding: .25rem!important;
+    }

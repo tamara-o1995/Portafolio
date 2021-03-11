@@ -256,3 +256,19 @@
     .p-1 {
         padding: .25rem!important;
     }
+    
+    .conocer-proyectos {
+        background-color: white;
+        color: #370A6D;
+        font-size: 15px;
+        /* font-weight: bold; */
+        border-radius: 20px;
+        padding: 5px 20px;
+        font-weight: bold;
+        text-transform: uppercase! important;
+    }
+    
+    .tamara {
+        font-weight: bold;
+        text-decoration: underline;
+    }

@@ -16,11 +16,6 @@
         background-size: 100%;
         height: 850px;
     }
-    /* .img-fluid {
-        height: 173px;
-        width: 345px;
-        padding: 0;
-    } */
     
     .texto {
         height: 140px;
@@ -50,11 +45,53 @@
         margin: 0px;
     }
     
+    #tecnologias h2:first-letter {
+        text-transform: uppercase;
+    }
+    
+    #tecnologias h2:not(first-letter) {
+        text-transform: lowercase;
+    }
+    
     h3 {
         font-size: 14px;
         color: #282828;
         font-weight: 300;
         margin-top: 50px;
+    }
+    
+    .experiencia h3,
+    .estudios h3 {
+        font-size: 20px;
+        color: gray;
+        font-weight: 800;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .experiencia h4,
+    .estudios h4 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    .experiencia h4 {
+        color: #370A6D;
+    }
+    
+    .estudios h4 {
+        color: #E20000;
+    }
+    
+    .experiencia h5,
+    .estudios h5 {
+        font-size: 14px;
+        color: gray;
+    }
+    
+    .experiencia p,
+    .estudios p {
+        font-size: 13px;
     }
     
     .card {
@@ -91,18 +128,42 @@
         text-align: center;
     }
     
-    .btn {
-        background-color: #E20000;
-        color: white;
+    .conocer-proyectos {
+        background-color: white;
+        color: #370A6D;
         font-size: 15px;
         border-radius: 20px;
         padding: 5px 20px;
-        font-weight: 100;
+        font-weight: bold;
+        text-transform: uppercase! important;
+    }
+    
+    .conocer-proyectos:hover {
+        color: white;
+        background-color: #370A6D;
+        text-decoration: none;
+    }
+    
+    .btn {
+        background-color: #E20000;
+        font-size: 13px;
+        border-radius: 20px;
+        padding: 5px 20px;
+        font-weight: 600;
+        text-transform: uppercase! important;
+    }
+    
+    .experiencia .btn {
+        background-color: #370A6D;
     }
     
     .btn:hover {
         background-color: #370A6D;
-        color: white;
+        text-decoration: none;
+    }
+    
+    .experiencia .btn:hover {
+        background-color: #E20000;
         text-decoration: none;
     }
     /*contacto-sobremi-proyectos-index*/
@@ -215,6 +276,45 @@
         width: 65px;
     }
     
+    .card-idioma {
+        border-radius: 17px;
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    
+    .card-idioma .card {
+        background-color: #370A6D;
+        color: white;
+        font-size: 80px;
+        height: 150px;
+        width: 150px;
+    }
+    
+    .card-idioma h2 {
+        color: rgba(0, 0, 0, 0.904);
+        font-weight: bold;
+    }
+    
+    .exp h2,
+    .est h2 {
+        text-transform: none;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .exp h2 {
+        color: #370A6D;
+    }
+    
+    .est h2 {
+        color: #E20000;
+    }
+    
+    .exp .fas,
+    .est .fas {
+        font-size: 55px;
+    }
+    
     a {
         text-decoration: none;
     }
@@ -248,40 +348,25 @@
         padding: .25rem!important;
     }
     
-    .conocer-proyectos {
-        background-color: white;
-        color: #370A6D;
-        font-size: 15px;
-        /* font-weight: bold; */
-        border-radius: 20px;
-        padding: 5px 20px;
-        font-weight: bold;
-        text-transform: uppercase! important;
-    }
-    
     .tamara {
         font-weight: bold;
         text-decoration: underline;
     }
     
-    element.style {}
+    .div-foto-cv {
+        margin-left: 100px;
+    }
     
-    element.style {}
-    
-    .img-circle {
-        margin: 1em auto;
+    .foto-cv {
+        height: 350px;
+        width: 350px;
         display: block;
         background-color: #fff;
-        padding: 10px;
         border-radius: 50%;
     }
     
     .img-fluid {
         max-width: 100%;
-        height: auto;
-    }
-    
-    .img-fluid {
         vertical-align: middle;
         border-style: none;
     }
@@ -290,16 +375,21 @@
         color: white;
         font-size: 15px;
         border-radius: 20px;
-        padding: 15px 20px;
+        /* padding: 10px 15px; */
         font-weight: 100;
     }
-    
-    .desc-cv:hover {
+    /* .desc-cv:hover {
         color: white;
         font-size: 15px;
         border-radius: 20px;
         padding: 5px 20px;
         font-weight: 100;
+    } */
+    
+    .experiencia,
+    .estudios {
+        border-radius: 17px;
+        width: 550px;
     }
     
     @media only screen and (max-width: 700px) {

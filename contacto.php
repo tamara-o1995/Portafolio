@@ -1,3 +1,5 @@
+<?php include_once("menu.php");?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -5,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Contacto</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="styesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/">
@@ -18,54 +20,40 @@
 <body class="img-fondo-a">
     <header>
         <div class="container">
-
-            <nav class="navbar navbar-expand-md px-0">
-                <button class="navbar-toggler mb-1 btn-menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon mt-1"><i class="fas fa-bars"></i></span>
-            </button>
-                <div class="col-12 justify-content-between collapse navbar-collapse" id="navbarsExampleDefault">
-                    <ul class="i-s-p-c navbar-nav mr-auto text-center div-menu">
-                        <li class="nav-item pr-5">
-                            <a class="nav-link active" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item pr-5">
-                            <a class="nav-link " href="sobre-mi.html">Sobre mí</a>
-                        </li>
-                        <li class="nav-item pr-5">
-                            <a class="nav-link" href="proyectos.html">Proyectos</a>
-                        </li>
-                        <li class="nav-item pr-5">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                    <div class="form-inline my-2 my-lg-0 div-menu">
-                        <a href="css/Tamara Omelaniuk C.V.pdf" class="btn text-white">Descargar mi CV <i class="fas fa-download"></i></a>
-                    </div>
-                </div>
-            </nav>
+            <?php include_once("menu.php");?>   
         </div>
     </header>
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-12 mt-4 text-center div-cohete">
-                    <a href="proyectos.html"><img src="images/cohete.svg" class="cohete"></a>
+                <div class="col-12 mt-sm-5 titulo">
+                    <h1>Contacto</h1>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-sm-6 my-4 mt-sm-5 text-center offset-sm-3 mb-3">
-                    <div class="presentacion">
-                        <p class="p-1">Hola mi nombre es <a href="sobre-mi.html" span class="tamara">Tamara</span></a>, soy desarroladora full stack.</p>
-                    </div>
+                <div class="col-sm-6 col-12 mt-4">
+                    <p>Te invito a que te contactes enviándome un mensaje o bien por <a href="https://api.whatsapp.com/send?phone=542494466495">whatsapp</a>.</p>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12 text-center">
-                    <a href="proyectos.html" class="conocer-proyectos shadow">Conoce mis proyectos</a>
+                <div class="col-sm-6 col-12 mt-4">
+                    <form action="" method="POST">
+                        <div class="mb-3">
+                            <input type="text" id="txtNombre" name="txtNombre" class="form-control shadow" placeholder="Nombre">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" id="txtCorreo" name="txtCorreo" class="form-control shadow" placeholder="Correo">
+                        </div>
+                        <div class="mb-3">
+                            <textarea name="txtMensaje" id="txtMensaje" class="form-control shadow" placeholder="Comentario"></textarea>
+                        </div>
+                        <div class="text-right">
+                            <button class="btn-enviar" type="submit">ENVIAR</button>
+                        </div>
+                    </form>
                 </div>
             </div>
 
         </div>
+
     </main>
     <footer>
         <div class="container foo-a">

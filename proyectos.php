@@ -1,3 +1,5 @@
+<?php include_once("menu.php");?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -17,32 +19,8 @@
 
 <body class="img-fondo-b">
     <header>
-        <div class="container">
-
-            <nav class="navbar navbar-expand-md px-0">
-                <button class="navbar-toggler mb-1 btn-menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon mt-1"><i class="fas fa-bars"></i></span>
-            </button>
-                <div class="col-12 justify-content-between collapse navbar-collapse" id="navbarsExampleDefault">
-                    <ul class="i-s-p-c navbar-nav mr-auto text-center div-menu">
-                        <li class="nav-item pr-5">
-                            <a class="nav-link  " href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item pr-5">
-                            <a class="nav-link " href="sobre-mi.html">Sobre mí</a>
-                        </li>
-                        <li class="nav-item pr-5">
-                            <a class="nav-link active" href="proyectos.html">Proyectos</a>
-                        </li>
-                        <li class="nav-item pr-5">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                    <div class="form-inline my-2 my-lg-0 div-menu">
-                        <a href="css/Tamara Omelaniuk C.V.pdf" class="btn text-white">Descargar mi CV <i class="fas fa-download"></i></a>
-                    </div>
-                </div>
-            </nav>
+    <div class="container">
+            <?php include_once("menu.php");?>   
         </div>
     </header>
     <main>

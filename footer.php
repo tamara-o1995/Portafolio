@@ -1,5 +1,5 @@
 <footer>
-        <div class="container <?php echo "footer-a";?>">
+        <div class="container <?php echo $fo;?>">
             <div class="row mt-3">
                 <div class="col-sm-3 col-12 text-sm-left pb-sm-0 pb-3 iconos">
                     <a href="https://github.com/tamara-o1995" target="_blank" title="Github"><i class="fab fa-github"></i></a>

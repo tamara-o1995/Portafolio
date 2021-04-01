@@ -20,7 +20,10 @@
 <body class="img-fondo-a">
     <header>
         <div class="container">
-            <?php include_once("menu.php");?>   
+            <?php 
+                $pg = "contacto";
+                include_once("menu.php");
+            ?>   
         </div>
     </header>
     <main>

@@ -19,8 +19,11 @@
 
 <body class="img-fondo-a">
     <header>
-    <div class="container">
-            <?php include_once("menu.php");?>   
+        <div class="container">
+            <?php 
+                $pg = "inicio";
+                include_once("menu.php");
+            ?>   
         </div>
     </header>
     <main>

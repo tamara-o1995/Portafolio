@@ -118,11 +118,11 @@ a.nav-link {
     color: black;
 }
 
-a.nav-link:hover {
+.nav-link:hover {
     text-decoration: none;
 }
 
-nav .active {
+.active {
     color: rgba(0, 0, 0, 0.904);
     border: 1px solid #E20000;
     font-size: 15px;

@@ -1,4 +1,3 @@
-<?php include_once("menu.php"); ?>
 
 <!DOCTYPE html>
 <html lang="es">

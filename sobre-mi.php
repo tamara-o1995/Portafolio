@@ -1,4 +1,4 @@
-<?php include_once("menu.php"); ?>
+
 
 <!DOCTYPE html>
 <html lang="es">
@@ -37,7 +37,7 @@
                     <p class="pb-sm-2"> Futura estudiante en la Tecnicatura Superior en Análisis, Desarrollo y Programación de Aplicaciones (Ingreso May 2021) .
                     </p>
 
-                    <div class="container foo-b mt-1 mb-5 p-0">
+                    <div class="container footer-b mt-1 mb-5 p-0">
                         <div class="row mb-5 ">
                             <div class="col-sm-3 col-6 text-sm-left pb-sm-0 pb-3 iconos">
                                 <a href="https://github.com/tamara-o1995" target="_blank" title="Github"><i class="fab fa-github"></i></a>

@@ -1,6 +1,8 @@
 <?php
 include_once("PHPMailer/src/PHPMailer.php");
 include_once("PHPMailer/src/SMTP.php");
+
+
 ?>
 
 
@@ -56,6 +58,22 @@ include_once("PHPMailer/src/SMTP.php");
                             <button class="btn-enviar" type="submit">ENVIAR</button>
                         </div>
                     </form>
+                    <?php
+                    if ($_POST) {
+
+                        $nombre = $_REQUEST["txtNombre"];
+                        $correo = $_REQUEST["txtCorreo"];
+                        $mensaje = $_REQUEST["txtMensaje"];
+                    
+                        if ($nombre != "" && $correo != "" && $mensaje != "") {
+                            header("Location: confirmacion-envio.php");
+                        
+                        } else {
+                            echo "<p>Complete todos los campos</p>";
+                        } 
+                        // exit; 
+                    }
+                    ?>
                 </div>
             </div>
 

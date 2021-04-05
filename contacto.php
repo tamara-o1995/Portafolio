@@ -1,3 +1,8 @@
+<?php
+include_once("PHPMailer/src/PHPMailer.php");
+include_once("PHPMailer/src/SMTP.php");
+?>
+
 
 <!DOCTYPE html>
 <html lang="es">

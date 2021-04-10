@@ -24,10 +24,10 @@ include_once("PHPMailer/src/SMTP.php");
 <body class="img-fondo-a">
     <header>
         <div class="container">
-            <?php 
-                $pg = "contacto";
-                include_once("menu.php");
-            ?>   
+            <?php
+            $pg = "contacto";
+            include_once("menu.php");
+            ?>
         </div>
     </header>
     <main>
@@ -35,16 +35,17 @@ include_once("PHPMailer/src/SMTP.php");
             <div class="row">
                 <div class="col-12 mt-sm-5 titulo">
                     <h1>Gracias por contactarte</h1>
-                    <p class="mt-4 mb-5">Te estare respondiendo a la brevedad</p>
+                    <p class="mt-4 mb-5">Te estaré respondiendo a la brevedad</p>
                 </div>
             </div>
         </div>
 
     </main>
-    <?php
-    $fo = "footer-a";
-    include_once("footer.php");
-    ?>
+    
+        <?php
+        $fo = "footer-a";
+        include_once("footer.php");
+        ?>
 </body>
 
 </html>

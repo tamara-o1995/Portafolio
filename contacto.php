@@ -26,10 +26,10 @@ include_once("PHPMailer/src/SMTP.php");
 <body class="img-fondo-a">
     <header>
         <div class="container">
-            <?php 
-                $pg = "contacto";
-                include_once("menu.php");
-            ?>   
+            <?php
+            $pg = "contacto";
+            include_once("menu.php");
+            ?>
         </div>
     </header>
     <main>
@@ -64,13 +64,12 @@ include_once("PHPMailer/src/SMTP.php");
                         $nombre = $_REQUEST["txtNombre"];
                         $correo = $_REQUEST["txtCorreo"];
                         $mensaje = $_REQUEST["txtMensaje"];
-                    
+
                         if ($nombre != "" && $correo != "" && $mensaje != "") {
                             header("Location: confirmacion-envio.php");
-                        
                         } else {
                             echo "<p>Complete todos los campos</p>";
-                        } 
+                        }
                         // exit; 
                     }
                     ?>

@@ -471,6 +471,10 @@ a:hover {
         background-color: #fff;
         border-radius: 50%;
         margin-left: -80px;
-        margin-top: -750px;
+        margin-top: -100px;
+        padding-bottom: 20px;
+    }
+    .shadow {
+        box-shadow: none! important;
     }
 }

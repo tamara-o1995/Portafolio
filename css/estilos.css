@@ -454,4 +454,23 @@ a:hover {
     footer .fa-whatsapp {
         margin: 0;
     }
+    .btn {
+        background-color: #E20000;
+        font-size: 13px;
+        border-radius: 20px;
+        padding: 5px 20px;
+        font-weight: 600;
+        text-transform: uppercase! important;
+        margin-left: 115px;
+        margin-top: -30px;
+    }
+    .foto-cv {
+        height: 300px;
+        width: 300px;
+        display: block;
+        background-color: #fff;
+        border-radius: 50%;
+        margin-left: -80px;
+        margin-top: -750px;
+    }
 }

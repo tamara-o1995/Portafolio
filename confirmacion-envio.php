@@ -41,11 +41,13 @@ include_once("PHPMailer/src/SMTP.php");
         </div>
 
     </main>
-    
-        <?php
+    <div class="fixed-bottom">
+    <?php
         $fo = "footer-a";
         include_once("footer.php");
         ?>
+    </div>
+        
 </body>
 
 </html>

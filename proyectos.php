@@ -52,7 +52,7 @@
                                 <a href="http://localhost/php/abmclientes/index.php" class="btn text-white btn-rojo" target="_blank">Ver online</a>
                             </div>
                             <div class="col-6">
-                                <a href="https://github.com/depcsuite/abmclientes" class="link-rojo" target="_blank">Código fuente</a>
+                                <a href="https://github.com/tamara-o1995/php/tree/master/abmclientes" class="link-rojo" target="_blank">Código fuente</a>
                             </div>
                         </div>
                     </div>
@@ -68,10 +68,10 @@
                         </div>
                         <div class="row p-3 pb-0">
                             <div class="col-6">
-                                <a href="https://nelsontarche.com.ar/sistema/login/" class="btn text-white btn-rojo" target="_blank">Ver online</a>
+                                <a href="#" class="btn text-white btn-rojo" target="_blank">Ver online</a>
                             </div>
                             <div class="col-6">
-                                <a href="https://github.com/depcsuite/login" class="link-rojo" target="_blank">Código fuente</a>
+                                <a href="https://github.com/tamara-o1995?tab=repositories" class="link-rojo" target="_blank">Código fuente</a>
                             </div>
                         </div>
                     </div>
@@ -90,7 +90,7 @@
                                 <a href="#" class="btn text-white btn-rojo" target="_blank">Ver online</a>
                             </div>
                             <div class="col-6">
-                                <a href="" class="link-rojo" target="_blank">Código fuente</a>
+                                <a href="https://github.com/tamara-o1995?tab=repositories" class="link-rojo" target="_blank">Código fuente</a>
                             </div>
                         </div>
                     </div>

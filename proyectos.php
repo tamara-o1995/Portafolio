@@ -49,7 +49,7 @@
                         </div>
                         <div class="row p-3 pb-0">
                             <div class="col-6">
-                                <a href="https://nelsontarche.com.ar/sistema/abmclientes/" class="btn text-white btn-rojo" target="_blank">Ver online</a>
+                                <a href="http://localhost/php/abmclientes/index.php" class="btn text-white btn-rojo" target="_blank">Ver online</a>
                             </div>
                             <div class="col-6">
                                 <a href="https://github.com/depcsuite/abmclientes" class="link-rojo" target="_blank">Código fuente</a>

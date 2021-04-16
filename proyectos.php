@@ -68,10 +68,10 @@
                         </div>
                         <div class="row p-3 pb-0">
                             <div class="col-6">
-                                <a href="#" class="btn text-white btn-rojo" target="_blank">Ver online</a>
+                                <a href="http://localhost/php/login/login.php" class="btn text-white btn-rojo" target="_blank">Ver online</a>
                             </div>
                             <div class="col-6">
-                                <a href="https://github.com/tamara-o1995?tab=repositories" class="link-rojo" target="_blank">Código fuente</a>
+                                <a href="https://github.com/tamara-o1995/login" class="link-rojo" target="_blank">Código fuente</a>
                             </div>
                         </div>
                     </div>

@@ -28,6 +28,7 @@ if ($_POST) {
         move_uploaded_file($archivo_tmp, "images/" . $nuevoNombre);
     }
 
+    
 
     if ($id != "") {
         if($_FILES["archivo"]["error"] !== UPLOAD_ERR_OK) {

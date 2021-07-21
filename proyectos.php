@@ -83,7 +83,7 @@
                             <h2>Proyecto integrador</h2>
                         </div>
                         <div class="texto col-12 py-3">
-                            <p>Proyecto Full Stack desarrollado en PHP, Laravel, Javascript, jQuery, AJAX, HTML, CSS, Mercadopago con panel administrador, gestor de usuarios, módulo de permisos y funcionalidades a fines.</p>
+                            <p>Proyecto Full Stack desarrollado en PHP, Laravel, Javascript, jQuery, AJAX, HTML, CSS, panel administrador, gestor de usuarios, módulo de permisos y funcionalidades a fines.</p>
                         </div>
                         <div class="row p-3 pb-0">
                             <div class="col-6">

@@ -34,7 +34,7 @@
                     <h1 class="mt-sm-4 pb-sm-4">Sobre mi</h1>
                     <p class="pb-sm-2">Persona responsable, dinámica y proactiva. Simpatía, buena presencia, trato amable y cordial, capacidad de escucha buena dicción. Predisposición, compromiso, seriedad; con capacidad de aprendizaje y flexibilidad para adaptarme a diferentes
                         tareas y situaciones. Perfil autónomo, orientado a resultados con alto nivel de motivación.</p>
-                    <p class="pb-sm-2"> Estudiante de la Tecnicatura Superior en Análisis, Desarrollo y Programación de Aplicaciones (Ingreso Abril 2021) .
+                    <p class="pb-sm-2"> Estudiante de la Tecnicatura Superior en Análisis, Desarrollo y Programación de Aplicaciones.
                     </p>
 
                     <div class="container footer-b mt-1 mb-5 p-0">

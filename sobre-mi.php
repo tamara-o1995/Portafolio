@@ -45,7 +45,7 @@
                             </div>
                             <div class="row col-6">
                                 <div class=" desc-cv form-inline my-2 my-lg-0 p-2 div-menu mr-5">
-                                    <a href="css/Tamara Omelaniuk C.V.pdf" class="btn text-white">Descargar mi CV</a>
+                                    <a href="css/Tamara Omelaniuk C.V.pdf" class="btn-desc-cv text-white">Descargar mi CV</a>
                                 </div>
                             </div>
 

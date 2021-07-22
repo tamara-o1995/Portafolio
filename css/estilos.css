@@ -148,7 +148,9 @@ a.nav-link {
     text-decoration: none;
 }
 
-.btn {
+.btn,
+.btn-cv,
+.btn-desc-cv {
     background-color: #E20000;
     font-size: 13px;
     border-radius: 20px;
@@ -455,6 +457,15 @@ a:hover {
         margin: 0;
     }
     .btn {
+        background-color: #E20000;
+        font-size: 13px;
+        border-radius: 20px;
+        padding: 5px 20px;
+        font-weight: 600;
+        text-transform: uppercase! important;
+        margin-top: -30px;
+    }
+    .btn-desc-cv {
         background-color: #E20000;
         font-size: 13px;
         border-radius: 20px;

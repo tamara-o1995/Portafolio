@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 
@@ -14,6 +13,9 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="/js/my.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
 </head>
 
 <body class="img-fondo-a">
@@ -35,7 +37,7 @@
             <div class="row">
                 <div class="col-12 col-sm-6 my-4 mt-sm-5 text-center offset-sm-3 mb-3">
                     <div class="presentacion">
-                        <p class="p-1">Hola mi nombre es <a href="sobre-mi.php" span class="tamara">Tamara</span></a>, soy desarroladora full stack.</p>
+                        <p id="maquinaEscribir" class="p-1"><a href="sobre-mi.php"  span class="tamara"> Tamara</span></a></p>
                     </div>
                 </div>
             </div>
@@ -54,3 +56,20 @@
 </body>
 
 </html>
+<script>
+    var i = 0;
+    var txt = ", soy desarroladora full stack. Bienvenid@ a mi sitio web.";
+    var speed = 100;
+
+
+
+    function typeWriter() {
+        if (i < txt.length) {
+            $("#maquinaEscribir").append(txt.charAt(i));
+            i++;
+            setTimeout(typeWriter, speed);
+        }
+    }
+
+    typeWriter();
+</script>

@@ -33,10 +33,13 @@
                 <div class="col-sm-5 col-6 mt-4 mb-5 ">
                     <h1 class="mt-sm-4 pb-sm-4">Sobre mi</h1>
                     <p class="pb-sm-2">Mi nombre es Tamara, tengo 26 años, soy de la ciudad de Tandil, provincia de Buenos Aires.<br> 
+                        - Me encuentro en la búsqueda de una posición acorde a mi perfil, ya que estoy interesada en tener una oportunidad en el mundo IT.
+                        - Actualmente estudio la Tecnicatura superior en Análisis, Desarrollo y Programación de
+                        Aplicaciones y estoy haciendo el curso de ingreso de TUDAI en la Unicen - Facultad de Exactas.
+                        - Además sigo adquiriendo conocimientos con el curso Programación Web Full Stack.<br>
                         Me considero una persona responsable, dinámica y proactiva. Simpatía, buena presencia, trato amable y cordial, capacidad de escucha buena dicción. Predisposición, compromiso, seriedad; con capacidad de aprendizaje y flexibilidad para adaptarme a diferentes
                         tareas y situaciones. Perfil autónomo, orientado a resultados con alto nivel de motivación.</p>
-                    <p class="pb-sm-2"> - Soy estudiante de la Tecnicatura Superior en Análisis, Desarrollo y Programación de Aplicaciones. Ademas estoy haciendo el curso de ingreso de TUDAI en la Unicen - Facultad de Exactas.<br>
-                                        - Me encuentro en la búsqueda de una posición acorde a mi perfil, ya que estoy interesada en tener una oportunidad en el mundo IT.
+                    <p class="pb-sm-2"> Estudiante de la Tecnicatura Superior en Análisis, Desarrollo y Programación de Aplicaciones.
                     </p>
 
                     <div class="container footer-b mt-1 mb-5 p-0">

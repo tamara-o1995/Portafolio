@@ -36,7 +36,8 @@
                         Me considero una persona responsable, dinámica y proactiva. Simpatía, buena presencia, trato amable y cordial, capacidad de escucha buena dicción. Predisposición, compromiso, seriedad; con capacidad de aprendizaje y flexibilidad para adaptarme a diferentes
                         tareas y situaciones. Perfil autónomo, orientado a resultados con alto nivel de motivación.</p>
                     <p class="pb-sm-2"> - Soy estudiante de la Tecnicatura Superior en Análisis, Desarrollo y Programación de Aplicaciones. Ademas estoy haciendo el curso de ingreso de TUDAI en la Unicen - Facultad de Exactas.<br>
-                                        - Me encuentro en la búsqueda de una posición acorde a mi perfil, ya que estoy interesada en tener una oportunidad en el mundo IT.
+                                        - Me encuentro en la búsqueda de una posición acorde a mi perfil, ya que estoy interesada en tener una oportunidad en el mundo IT.<br>
+                                        - Sigo adquiriendo conocimientos con el curso Programación Web Full Stack.<br>
                     </p>
 
                     <div class="container footer-b mt-1 mb-5 p-0">

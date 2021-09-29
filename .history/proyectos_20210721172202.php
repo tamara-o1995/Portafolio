@@ -80,14 +80,14 @@
                     <div class="pro row card m-1">
                         <img class="img-fluid" src="images/sistema-admin.png" alt="Proyecto" title="Proyecto">
                         <div class="col-12 color-gradiente py-3">
-                            <h2>Proyecto integrador Burger SRL</h2>
+                            <h2>Proyecto integrador</h2>
                         </div>
                         <div class="texto col-12 py-3">
                             <p>Proyecto Full Stack desarrollado en PHP, Laravel, Javascript, jQuery, AJAX, HTML, CSS, panel administrador, gestor de usuarios, módulo de permisos y funcionalidades a fines.</p>
                         </div>
                         <div class="row p-3 pb-0">
                             <div class="col-6">
-                                <a href="http://127.0.0.1:8000" class="btn text-white btn-rojo" target="_blank">Ver online</a>
+                                <a href="#" class="btn text-white btn-rojo" target="_blank">Ver online</a>
                             </div>
                             <div class="col-6">
                                 <a href="https://github.com/tamara-o1995?tab=repositories" class="link-rojo" target="_blank">Código fuente</a>

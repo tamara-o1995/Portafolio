@@ -55,7 +55,7 @@
                 </div>
 
                 <div class="col-sm-3 col-6 mt-4 offset-sm-2 div-foto-cv">
-                    <img src="images/perfil2.jpg" alt="Tamara Omelaniuk" title="Tamara Omelaniuk" class="foto-cv shadow">
+                    <img src="images/pp.jpg" alt="Tamara Omelaniuk" title="Tamara Omelaniuk" class="foto-cv shadow">
                 </div>
             </div>
         </div>

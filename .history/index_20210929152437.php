@@ -58,7 +58,7 @@
 </html>
 <script>
     var i = 0;
-    var txt = ", estudiante y desarroladora full stack. Bienvenid@ a mi sitio web.";
+    var txt = ", desarroladora full stack. Bienvenid@ a mi sitio web.";
     var speed = 100;
 
 

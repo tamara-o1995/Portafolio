@@ -37,7 +37,7 @@
             <div class="row">
                 <div class="col-12 col-sm-6 my-4 mt-sm-5 text-center offset-sm-3 mb-3">
                     <div class="presentacion">
-                        <p id="maquinaEscribir" class="p-1"><a href="sobre-mi.php"  span class="tamara"> Soy Tamara</span></a></p>
+                        <p id="maquinaEscribir" class="p-1"><a href="sobre-mi.php"  span class="tamara"> Tamara</span></a></p>
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@
 </html>
 <script>
     var i = 0;
-    var txt = ", estudiante y desarroladora full stack. Bienvenid@ a mi sitio web.";
+    var txt = ", soy desarroladora full stack. Bienvenid@ a mi sitio web.";
     var speed = 100;
 
 

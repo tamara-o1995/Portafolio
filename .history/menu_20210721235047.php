@@ -18,7 +18,7 @@
             </li>
         </ul>
         <div class="form-inline my-2 my-lg-0 div-menu">
-            <a href="css/CV Tamara Omelaniuk.pdf" class="btn-cv text-white">Descargar mi CV <i class="fas fa-download"></i></a>
+            <a href="css/Tamara Omelaniuk C.V..pdf" class="btn-cv text-white">Descargar mi CV <i class="fas fa-download"></i></a>
         </div>
     </div>
 </nav>
